@@ -58,9 +58,6 @@
         <mxCell id="Asr2E2KB3ToAg5dMWEB5-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=5;" edge="1" parent="1" source="Asr2E2KB3ToAg5dMWEB5-19" target="Asr2E2KB3ToAg5dMWEB5-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Asr2E2KB3ToAg5dMWEB5-27" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="480" y="700" width="60" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="Asr2E2KB3ToAg5dMWEB5-28" value="Hostname Access: auth.d.com.hr" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;" vertex="1" parent="1">
           <mxGeometry x="610" y="948.5" width="780" height="40" as="geometry" />
         </mxCell>
