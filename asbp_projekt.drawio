@@ -52,11 +52,20 @@
         <mxCell id="Asr2E2KB3ToAg5dMWEB5-24" value="Name: Mikrotik&lt;div&gt;OS: RouterOS&lt;/div&gt;&lt;div&gt;IP: 10.0.0.1&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="317" y="980" width="106" height="54.8" as="geometry" />
         </mxCell>
-        <mxCell id="Asr2E2KB3ToAg5dMWEB5-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Asr2E2KB3ToAg5dMWEB5-19" target="Asr2E2KB3ToAg5dMWEB5-23">
+        <mxCell id="Asr2E2KB3ToAg5dMWEB5-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=5;" edge="1" parent="1" source="Asr2E2KB3ToAg5dMWEB5-19" target="Asr2E2KB3ToAg5dMWEB5-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Asr2E2KB3ToAg5dMWEB5-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.527;entryY=0.989;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Asr2E2KB3ToAg5dMWEB5-23" target="Asr2E2KB3ToAg5dMWEB5-1">
+        <mxCell id="Asr2E2KB3ToAg5dMWEB5-26" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.527;entryY=0.989;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;strokeWidth=5;shape=link;" edge="1" parent="1" source="Asr2E2KB3ToAg5dMWEB5-23" target="Asr2E2KB3ToAg5dMWEB5-1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Asr2E2KB3ToAg5dMWEB5-27" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="700" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Asr2E2KB3ToAg5dMWEB5-28" value="Hostname Access: auth.d.com.hr" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="410" y="880" width="780" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Asr2E2KB3ToAg5dMWEB5-29" value="NAT Rule&lt;div&gt;for forwarding&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="390" y="830" width="186" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
