@@ -1,9 +1,63 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.3">
   <diagram name="Page-1" id="iaIFJIXBgVTrJfoHt4K9">
-    <mxGraphModel>
+    <mxGraphModel dx="2066" dy="1143" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Asr2E2KB3ToAg5dMWEB5-1" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;&lt;b&gt;INTERNET&lt;/b&gt;&lt;/font&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="100" width="293.33" height="184.8" as="geometry" />
+        </mxCell>
+        <mxCell id="Asr2E2KB3ToAg5dMWEB5-2" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBorderColor=none;fontColor=none;noLabel=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="420" width="1040" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="Asr2E2KB3ToAg5dMWEB5-3" value="&lt;font style=&quot;font-size: 33px; line-height: 160%;&quot;&gt;d&lt;span style=&quot;background-color: initial;&quot;&gt;.com.hr&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="360" width="160" height="75.2" as="geometry" />
+        </mxCell>
+        <mxCell id="Asr2E2KB3ToAg5dMWEB5-4" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="238" y="435.2" width="84" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Asr2E2KB3ToAg5dMWEB5-5" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="410" y="435.2" width="84" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Asr2E2KB3ToAg5dMWEB5-6" value="Name: Iskra&lt;div&gt;OS: ESXi&lt;/div&gt;&lt;div&gt;IP: 10.0.0.100&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="235" y="585.2" width="90" height="54.8" as="geometry" />
+        </mxCell>
+        <mxCell id="Asr2E2KB3ToAg5dMWEB5-7" value="Name: Metroflex&lt;div&gt;OS: Proxmox&lt;/div&gt;&lt;div&gt;IP: 10.0.0.15&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="399" y="585.2" width="106" height="54.8" as="geometry" />
+        </mxCell>
+        <mxCell id="Asr2E2KB3ToAg5dMWEB5-8" value="VMs" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="382" y="650" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Asr2E2KB3ToAg5dMWEB5-9" value="DC2 (Redundancy)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Asr2E2KB3ToAg5dMWEB5-8">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Asr2E2KB3ToAg5dMWEB5-16" value="VMs" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="650" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Asr2E2KB3ToAg5dMWEB5-17" value="D1 (Master)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Asr2E2KB3ToAg5dMWEB5-16">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Asr2E2KB3ToAg5dMWEB5-18" value="RHEL (Keycloak)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Asr2E2KB3ToAg5dMWEB5-16">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Asr2E2KB3ToAg5dMWEB5-19" value="NixOS (NGINX)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Asr2E2KB3ToAg5dMWEB5-16">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Asr2E2KB3ToAg5dMWEB5-21" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;" edge="1" parent="1" source="Asr2E2KB3ToAg5dMWEB5-17" target="Asr2E2KB3ToAg5dMWEB5-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Asr2E2KB3ToAg5dMWEB5-23" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Virtual_Router.svg;" vertex="1" parent="1">
+          <mxGeometry x="330" y="890" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Asr2E2KB3ToAg5dMWEB5-24" value="Name: Mikrotik&lt;div&gt;OS: RouterOS&lt;/div&gt;&lt;div&gt;IP: 10.0.0.1&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="317" y="980" width="106" height="54.8" as="geometry" />
+        </mxCell>
+        <mxCell id="Asr2E2KB3ToAg5dMWEB5-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Asr2E2KB3ToAg5dMWEB5-19" target="Asr2E2KB3ToAg5dMWEB5-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Asr2E2KB3ToAg5dMWEB5-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.527;entryY=0.989;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Asr2E2KB3ToAg5dMWEB5-23" target="Asr2E2KB3ToAg5dMWEB5-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
